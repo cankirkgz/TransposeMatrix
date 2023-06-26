@@ -10,7 +10,8 @@ public class Main {
             }
             System.out.println();
         }
-        
+
+        // Transpose the matrix
         for (int i = 0; i < matrix.length; i++)
             for (int j = 0; j < matrix[i].length; j++)
                 transpose[j][i] = matrix[i][j];
